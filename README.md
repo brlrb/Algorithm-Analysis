@@ -1,2 +1,2 @@
-# Python-and-Algorithms
-Using Python to write code for various Algorithms
+# Algorithm Analysis
+Using various programming languages to write code for an Algorithm
