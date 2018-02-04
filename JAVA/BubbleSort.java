@@ -1,10 +1,9 @@
 //BubbleSort Sort
 // https://github.com/brlrb
 
-
 // ANALYSIS
 // Worst case: O(n^2)
-// Best case: O(n^2)
+// Best case: O(n) - If the item is already sorted, we do not need to do any swaps
 
 public class BubbleSort {
     public static void main(String args[]){
@@ -46,6 +45,6 @@ public class BubbleSort {
 
         System.out.println("\nANALYSIS");
         System.out.println("Worst Case: O(n^2)");
-        System.out.println("Best Case: O(n) - If the item is already sorted, we do not need to do any Swaps\n");
+        System.out.println("Best Case: O(n) - If the item is already sorted, we do not need to do any swaps\n");
     }
 }
