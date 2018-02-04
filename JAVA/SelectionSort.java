@@ -3,12 +3,15 @@
 
 // STEPS:
 // 1: Find the smallest unsorted element in the list and add it to the end of the sorted list
-// 2: Repeat until no unsorted emelents remain
+// 2: Repeat until no unsorted elements remain
+
+// ANALYSIS
+// Worst case: O(n^2)
+// Best case: O(n^2)
 
 public class SelectionSort {
     public static void main(String args[]){
-        System.out.println("Selection Sort");
-        System.out.println("--------------");
+        System.out.println("Selection Sort \n");
 
         // Variable Declaration
         int i; // counter for outer loop
@@ -50,8 +53,9 @@ public class SelectionSort {
             }
 
             System.out.println(minValue);
-
         }
-
+        System.out.println("\nANALYSIS");
+        System.out.println("Worst Case: O(n^2)");
+        System.out.println("Best Case: O(n^2) \n");
     }
 }
