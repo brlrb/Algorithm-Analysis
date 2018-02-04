@@ -19,7 +19,7 @@ public class SelectionSort {
         int k; // counter for unsorted list
         int minValue; // assign the single minimun value
         int minIndex; // assign the single value of the minimum index
-        int temp; // varible to hold temporary value
+        int temp; // variable to hold temporary value for swaps
 
         // list of random values
         int[] list = {
