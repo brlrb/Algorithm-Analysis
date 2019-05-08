@@ -1,2 +1,2 @@
 # Algorithm Analysis
-Using various programming languages to write code for an Algorithm
+Using mostly Python programming languages to write code for an Algorithm
