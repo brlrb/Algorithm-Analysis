@@ -27,6 +27,8 @@ def is_unique_string(string):
     # return True if all characters are unique
     return True
 
-
+# Prompt user to enter a String
 string = input("Enter a String to check if it has unique characters: ")
+
+# Call the function is_unique_string and print the result
 print(is_unique_string(string))
