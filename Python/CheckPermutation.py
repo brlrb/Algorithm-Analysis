@@ -19,7 +19,11 @@ def isPermutation(string1, string2):
     return False
 
 
-
+# Prompt user to enter a String1
 string1 = input("Enter string one: ")
+
+# Prompt user to enter a String2
 string2 = input("Enter string two: ")
+
+# Call the function isPermutation and print the result
 print(isPermutation(string1, string2))
