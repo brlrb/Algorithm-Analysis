@@ -9,5 +9,8 @@ def is_unique_string(string):
     return len(string) == len(set(string))
 
 
+# Prompt user to enter a String
 string = input("Enter a String to check if it has unique characters: ")
+
+# Call the function is_unique_string and print the result
 print(is_unique_string(string))
