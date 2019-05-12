@@ -18,8 +18,8 @@ def urlify(string):
     return string
 
 
-# Input user to enter a String
-string = input("Enter a string: ")
+# Prompt user to enter a String
+string = input("Enter a String: ")
 
 # Call the function urlify and print the result
 print(urlify(string))
